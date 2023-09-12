@@ -1,0 +1,19 @@
+td.light {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    transition: all 0.15s;
+    background-color: rgb(107, 101, 45);
+}
+
+.light:hover {
+    background-color: rgb(112, 106, 49);
+}
+
+.light.is_on {
+    background-color: yellow;
+}
+
+.light.is_on:hover {
+    background-color: rgb(255, 255, 150);
+}
